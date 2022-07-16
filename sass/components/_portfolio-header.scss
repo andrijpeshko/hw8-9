@@ -1,0 +1,114 @@
+.web,
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+
+}
+
+.logo {
+
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.navigation {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.navigation
+{
+   &:hover,
+&:focus {
+    color: #2196F3;
+
+
+} 
+}
+
+.navigation
+{
+    &::after {
+    transition-property: background-color color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.navigation-portfolio
+{
+    &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #2196F3;
+
+
+}
+}
+
+.navigation-portfolio {
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts {
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    text-decoration: none;
+    transition-property: background-color color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}

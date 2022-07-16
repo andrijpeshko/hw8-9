@@ -1,0 +1,153 @@
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+.mob-menu{
+    position: fixed;
+    background-color: #fff;
+    top: 20px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    transition-property: background-color color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    & ul{
+        
+        list-style: none;
+    }
+    & a{
+        font-style: normal;
+        text-decoration: none;
+    }
+    & .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        overflow: auto;
+    }
+}
+.mob-close-btn{
+    position: absolute;
+    top: 21px;
+    right: 25px;
+}
+.mob-navigation{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: calc(47 / 40);
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+        transition-property: background-color color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover {
+                    color: #2196F3;
+            
+                }
+            
+                &:focus {
+                    color: #2196F3;
+                }
+        
+}
+
+.mob-nav-item:not(:last-child){
+    margin-bottom: 32px;
+
+}
+.mob-contact-tel{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: calc(40 / 34);
+        
+    
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+        
+
+}
+.mob-contact-list{
+    margin: 0;
+    margin-bottom: 64px;
+}
+.mob-contact-mail{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: calc(28 / 24);
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+        
+}
+.social-mob-item{
+   
+        
+    
+        
+    
+        
+        &::after{
+            border: 1px solid rgba(33, 33, 33, 0.2);
+                transform: rotate(90deg);
+            
+            content: "";
+            margin-left: 10px;
+            
+        }
+        &:last-child::after{
+            display: none;
+        }
+        
+}
+.social-mob-header{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+.social-mob-link{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    letter-spacing: 0.02em;
+    color:#2196F3;
+}
+.mob-nav-list{
+margin: 0;
+}
+.mob-contact-item:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.mob-close-btn{
+    background-color: transparent;
+    border: none;
+    transition-property: background-color fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        fill: #2196F3;
+    }
+    &:focus{
+        fill: #2196F3;
+    }
+}

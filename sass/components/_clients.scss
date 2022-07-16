@@ -1,0 +1,140 @@
+
+.clients-img {
+    fill: #AFB1B8;
+
+
+}
+
+
+
+.clients-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+    margin: 0;
+    flex-wrap: wrap;
+   
+
+.client-item {
+    display: block ;
+    
+    width: 100%;
+    
+    width: calc((100% - 30px) / 2);
+    
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 60px) / 3);
+    
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 150px) / 6);
+        }
+    }
+}
+
+
+.clients-link {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+
+}
+
+.cliens-img {
+    fill: currentColor;
+    margin: 0 auto;
+
+}
+
+.clients-link
+{
+  &:hover,
+&:focus {
+ 
+border: 1px solid #2196F3;
+    border-radius: 4px;
+
+
+
+    color: #2196F3;
+
+}  
+}
+
+.clients-img {
+    fill: currentColor;
+    color: currentColor;
+    display: block;
+}
+
+.clients-link {
+
+    display: flex;
+
+
+    flex-grow: 1;
+}
+
+
+.title-clients {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    color: #212121;
+    @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                letter-spacing: 0.03em;
+            
+                color: #212121;
+        }
+}
+
+.container-clients {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clients-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-link
+{
+    &:focus {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+
+}
+}
+
+
+.clients-link {
+    color: #AFB1B8
+}
+
+.clients-link {
+    transition-property: background-color color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
